@@ -1,6 +1,7 @@
 import './index.scss';
 function Main() {
   return (
+    
     <main>
         <div id='block1'>
             <div id='ten-t'></div>
