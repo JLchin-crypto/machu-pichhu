@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Montserrat-Black;
+    font-style: normal;
+    font-weight: normal;
+    src: url(fonts/Montserrat-Black.ttf) format('truetype');
+}
+@font-face {
+    font-family: Absorite-Bold;
+    font-style: normal;
+    font-weight: normal;
+    src: url(fonts/Absortile-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: Baron-Neue-Bold;
+    font-style: normal;
+    font-weight: normal;
+    src: url(fonts/Baron-Neue-Bold.otf) format("opentype");
+}
+@font-face {
+    font-family: Montserrat-Light;
+    font-style: normal;
+    font-weight: normal;
+    src: url(fonts/Montserrat-Light.ttf) format('truetype');
+}
+@font-face {
+    font-family: Montserrat-Medium;
+    font-style: normal;
+    font-weight: normal;
+    src: url(fonts/Montserrat-Medium.ttf) format('truetype');
+}
+@font-face {
+    font-family: Montserrat-SemiBold;
+    font-style: normal;
+    font-weight: normal;
+    src: url(fonts/Montserrat-SemiBold.ttf) format('truetype');
+}
+#block1 {
+    background-image: url(imgs/main.jpg);
+}
+#tg {
+    background-image: url(svg/tg_white.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+#tg:hover {
+    transition: .2s;
+    background-image: url(svg/tg_hover.svg);
+}
+#viber {
+    background-image: url(svg/w_white.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#viber:hover {
+    transition: .2s;
+    background-image: url(svg/w_hover.svg);
+}
+#wa {
+    background-image: url(svg/wa_white.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#wa:hover {
+    transition: .2s;
+    background-image: url(svg/wa_hover.svg);
+}
+#to-top {
+    background-image: url(imgs/play-button.png);
+    background-size: contain;
+}
+#to-top:hover {
+    background-image: url(imgs/play-button_hover.png);
+    transition: .2s;
+}
+.b2-i1 {
+    background-image: url(imgs/block2-img1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.b2-i2 {
+    background-image: url(imgs/block2-img2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+.b2-i3 {
+    background-image: url(imgs/block2-img3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+}
