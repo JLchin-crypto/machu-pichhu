@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/machu-pichhu/static/css/main.e69c7f40.css",
+    "main.css": "/machu-pichhu/static/css/main.ed8bb1bb.css",
     "main.js": "/machu-pichhu/static/js/main.00a3b8c6.js",
     "index.html": "/machu-pichhu/index.html",
-    "main.e69c7f40.css.map": "/machu-pichhu/static/css/main.e69c7f40.css.map",
+    "main.ed8bb1bb.css.map": "/machu-pichhu/static/css/main.ed8bb1bb.css.map",
     "main.00a3b8c6.js.map": "/machu-pichhu/static/js/main.00a3b8c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.e69c7f40.css",
+    "static/css/main.ed8bb1bb.css",
     "static/js/main.00a3b8c6.js"
   ]
 }
