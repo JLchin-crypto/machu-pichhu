@@ -6,12 +6,12 @@ function Header() {
 
   function burg_open() {
       if (burg == 'closed') {
-        document.querySelector("#burg").src = 'svg/burg_hover.svg';
+        document.querySelector("#burg").src = process.env.PUBLIC_URL + "/svg/burg_hover.svg";
         document.querySelector("#nav-mobile").className = 'nav-mob-open';
         burg = 'open';
       }
       else if (burg == 'open') {
-        document.querySelector("#burg").src = 'svg/burg_white.svg';
+        document.querySelector("#burg").src = process.env.PUBLIC_URL + "/svg/burg_white.svg";
         document.querySelector("#nav-mobile").className = 'nav-mob-close';
         burg = 'closed';
       };
@@ -84,7 +84,7 @@ function Header() {
           <a className='logo' id='logo-mob'>
             DREAM<br/>MACHU.
           </a>
-          <img src='svg/burg_white.svg' id='burg' onClick={burg_open}/>
+          <img src={process.env.PUBLIC_URL + '/svg/burg_white.svg'} id='burg' onClick={burg_open}/>
       </nav>
     </header>
   );

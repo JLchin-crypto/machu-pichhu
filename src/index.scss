@@ -1,9 +1,6 @@
 body::-webkit-scrollbar {
   width: 0px;               /* ширина scrollbar */
 }
-#root {
-  overflow: hidden;
-}
 @media (max-width: 1000px) {
   #nav-desk {
     display: none;
@@ -100,6 +97,7 @@ body {
   background-color: #132019;
   color: white;
   position: relative;
+  overflow-x: hidden;
 }
 header {
   z-index: 500;
@@ -177,6 +175,8 @@ header {
 }
 main {
   display: grid;
+  overflow: hidden;
+  width: 100vw;
 }
 #kostyl1 {
   display: flex;
@@ -401,4 +401,5 @@ main {
   margin-left: 1000px;
   margin-top: 1000px;
   z-index: 0;
+  overflow: hidden;
 }

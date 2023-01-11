@@ -14,8 +14,8 @@ function Main() {
             <div id='ten-b'></div>
         </div>
         <div id='block2'>
-          <img src='imgs/tattoo.png' id='block2-tattoo1'/>
-          <img src='imgs/tattoo2.png' id='block2-tattoo2'/>
+          <img src={process.env.PUBLIC_URL + '/imgs/tattoo.png'} id='block2-tattoo1'/>
+          <img src={process.env.PUBLIC_URL + "/imgs/tattoo2.png"} id='block2-tattoo2'/>
           <div id='block2-1'>
           <a>REASONS<br/></a>
           <a>FIVE REASONS WHY<br/>YOU SHOULD VISIT<br/>MACHUPICCHU</a>
